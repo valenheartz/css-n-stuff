@@ -1,3 +1,6 @@
+// art creds for the demon girl to @ artnest on tumblr //
+
+
 body {
     background-image: url(https://i.ibb.co/T11364P/gayig.jpg);
     background-size: cover;
@@ -235,3 +238,18 @@ body {
     width: 490px;
     margin-top: 5px;
 }
+.url {
+    font-size: 0px;
+    background: url(https://i.ibb.co/TwhM25N/demongirllolo.gif);
+    background-size: 310px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    color: transparent !important;
+    height: 256px;
+    width: 256px;
+    border: none;
+    box-shadow: none;
+    padding: 0 !important;
+    z-index: 1000;
+

@@ -102,22 +102,22 @@ img {
     border: none;
     overflow: hidden;
     background: black;
-    border: 5px double #8f8181;
+    border: 5px double #008000;
 }
 .rightHead {
     background: #fc90;
-    color: #008000;
+    color:  #008000;
     padding-left: 4px;
 }
 .tableRight {
     width: 75%;
-    background: #d3cfcf;
+    background:  black;
     padding: 10px;
     vertical-align: top;
     overflow-wrap: anywhere;
 }
 .tableLeft {
-    background: #858585;
+    background:  black;
     width: 25%;
     padding: 10px;
     vertical-align: top;
@@ -237,7 +237,7 @@ body {
 }
 .url {
     font-size: 0px;
-    background: url(https://i.ibb.co/b5D7z1n/cropped-futaba-pixel-art-by-spikelookalike.png);
+    background: url(https://i.ibb.co/ryyWz3q/Futaba-Sakura-P5.png);
     background-size: 310px;
     position: fixed;
     right: 0;

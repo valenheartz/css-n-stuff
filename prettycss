@@ -1,0 +1,410 @@
+h4{
+			font-size: 0;
+		}
+
+.topLeft:after {
+    content: "";
+    white-space: pre-wrap;
+    display: block;
+    height: 285px;
+    background-image: url(lll), url(https://i.ibb.co/QDKB983/original-uhihu.jpg);
+    background-repeat: no-repeat, no-repeat, repeat, repeat, repeat, repeat;
+    background-size: 390px;
+border-radius: 5px;
+box-shadow: 0px 0px 10px #888888;
+padding: 5px;
+    ;
+}
+ 
+.topLeft:before {
+    content: "";
+    white-space: pre-wrap;
+    display: block;
+    height: 300px;
+    background-image: url(lll), url(https://data.whicdn.com/images/351406589/original.jpg);
+    background-repeat: no-repeat, no-repeat, repeat, repeat, repeat, repeat;
+    background-size: 390px;
+border-radius: 5px;
+box-shadow: 0px 0px 10px #888888;
+padding: 5px;
+    ;
+}
+div {
+    color: #fff;
+  text-shadow: 0 0 3px #f99fbf;
+}
+
+.rightHead {
+    background: #e784a3;
+    color: #fff;
+    border: 1px solid #f99fbf;
+    padding-left: 4px;
+}
+
+.topRight > .extended.box::after {
+    font-size: 15px !important;
+    content: "lovesick♡･ﾟ:*";
+}
+
+.topRight > .box:not(.blurbs) > .rightHead > b::after {
+    content: "my friends :))";
+    font-size: 15px;
+    color: #000;
+}
+.topRight > .box:not(.blurbs) > .rightHead > b > span.uName {
+    font-size: -9999px;
+}
+.topRight > .box:not(.blurbs) > .rightHead > b {
+    font-size: 0;
+}
+.blurbs.box > .rightHead > b > span.uName::after {
+    content: "*:･ﾟ✧all about me!*:･ﾟ";
+    color: #000;
+    font-size: 15px;
+}
+.blurbs.box > .rightHead > b {
+    font-size: 0px;
+}
+.blurbs.box > .rightHead > b > span.uName {
+    font-size: 0px;
+    color: #fff;
+}
+
+.topRight > .extended.box > h3 {
+    font-size: 0;
+}
+.boxHead {
+    display: none;
+    text-indent: -9999px;
+}
+
+.logo b span {
+  display: none;
+}
+
+.logo b:before {
+    vertical-align: middle;
+    font-size: 20px;
+    content: "";
+}
+
+div#online {
+content: url(https://www.myspacegens.com/images/online_now/3.gif);
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 90%;
+}
+
+.url a {
+    display: none;
+}
+.url {
+    font-size: 0px;
+    background: url(https://steamuserimages-a.akamaihd.net/ugc/961979076441855124/90DDEEC5FACAF7EDE055FB391766670EEEB28491/);
+    background-size: 310px;
+    position: fixed;
+    right: 50;
+    bottom: 0;
+    color: transparent !important;
+    height: 350px;
+    width: 300px;
+    border: none;
+    box-shadow: none;
+    padding: 0 !important;
+    z-index: 1000;
+}
+
+div#header {
+	Background-image: url(https://i.ibb.co/1ZSFT3g/kjkj.jpg);
+   text-align: center;}
+
+div#hSub {
+	background: #202020;
+	color: black;
+	text-align: center;}
+
+.blurbs, #box, #header, #hSub {
+    background: #ebb1c6;
+    border: 3px double #fff;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.tableLeft {
+    background: #e784a3;
+    width: 25%;
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+    vertical-align: top;
+    overflow: hidden;
+background-image: url(https://data.whicdn.com/images/351389658/original.jpg);
+	background-size: 100%;
+border-radius: 5px;
+box-shadow: 0px 0px 10px #888888;
+padding: 5px;
+}
+
+
+.short, .player.box, .box.blurbs, .extended.box, .box.fwiends, .box.blog, td.tableRight {
+background: #ebcad1;
+border: 2px #ebcad1 solid;
+border-radius: 5px;
+box-shadow: 0px 0px 10px #888888;
+padding: 5px;
+}
+
+
+
+body {
+background-image: url(https://data.whicdn.com/images/351389033/original.jpg);
+background-color: white; ;
+background-size:100% 100%;
+background-attachment:fixed;}
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.blogs div, .blog div {
+	margin-bottom: 10px;
+	color: pink;
+}
+
+.blogs div, .blog div, .url a {
+	color: black !important;
+}
+
+
+.topRight.blogPost {
+	float: right;
+	width: calc( 75% - 20px );
+	padding: 1px;
+}
+
+.topRight > .blurbs.box > .blogs > div > b::after {
+    font-size: 15px !Important;
+    content: "my blogs<3";
+    animation: test 1s linear infinite;
+}
+.topRight > .blurbs.box > .blogs > div > b {
+    font-size: 0px !Important;
+}
+
+
+
+.fwiendFace img {
+height: 128px;
+object-position: top;
+object-fit: cover;
+}
+.rightHead {
+	background:white;
+	color: black;
+	padding-left: 4px;
+}
+h4 {
+	color: black;
+	margin-bottom: 3px;
+}
+.boxInfo {
+	border: 3px solid #000;
+	margin-bottom: 20px;
+	margin-top: 20px;
+background: #ebcad1;
+border: 2px #ebcad1 solid;
+border-radius: 5px;
+box-shadow: 0px 0px 10px #888888;
+padding: 5px;
+}
+.boxHead {
+	background: white;
+	color: black;
+	padding: 3px;
+	padding-bottom: 4px;
+	padding-left: 6px;
+	display: none;
+}
+form {
+	margin-bottom: 20px;
+	text-align: right;
+
+}
+color: black;
+   background-color:black;
+      	border-color: black;
+      	border: 3px solid #000;
+}
+
+.tableLeft {
+    background: #e784a3;
+    width: 25%;
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+    vertical-align: top;
+    overflow: hidden;
+background-image: url(https://data.whicdn.com/images/351389658/original.jpg);
+	background-size: 50%;
+}
+
+.tableRight {
+  border-radius: 25px;
+  background: #ffffff;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  opacity: 1.0;
+}
+
+
+#sMsg{
+background-image: url(https://cutekawaiiresources.files.wordpress.com/2018/03/1182.gif?w=23&zoom=2);
+color: white
+}
+#block {
+background-image: url(https://cutekawaiiresources.files.wordpress.com/2018/03/1203.gif?w=560);
+color: white
+
+}
+#report {
+background-image: url(https://cutekawaiiresources.files.wordpress.com/2018/03/coffee-3.gif?w=150&h=150);
+color: white
+
+}
+#add {
+background-image: url(https://cutekawaiiresources.files.wordpress.com/2018/03/1066.gif?w=560);
+color: white
+}
+
+#sMsg::after {
+    content: "message me :P";
+    font-size: 14px;
+font-shadow: 0px 0px 20px #888888;
+}
+#sMsg {
+    font-size: 0px;
+    color: #fff;
+}
+#add::after {
+    content: " lets be besties<3";
+    font-size: 14px;
+}
+#add {
+    font-size: 0px;
+    color: #fff;
+}
+#block::after {
+    content: "don't do it :-((";
+    font-size: 14px;
+}
+#block {
+    font-size: 0px;
+    color: #fff;
+}
+#report::after {
+    content: "snake to tom >:|";
+    font-size: 14px;
+}
+#report {
+    font-size: 0px;
+    color: #fff;
+}
+
+
+.player::before {
+content: "";
+display: block;
+position: relative;
+width: calc(50% -20px);
+height: 335px;
+max-width: 390px;
+background-position: 0 0;
+background-size: 100% 100%;
+background-image: url(https://i.ibb.co/ZJRQYDW/thrhjt.gif);
+object-fit: cover;
+}
+
+div.player.box {
+background-color: transparent;
+  border-radius: 5px;
+box-shadow: 0px 0px 10px #888888;
+  background: #202020;
+  padding: 5px;
+}
+
+.songName span {
+    color: #fff
+}
+
+
+.fwiendFace img {
+background-position: center;
+border-radius: 50%;
+display: absolute;
+height: 100px;
+object-fit: cover;
+width: 100px;
+}
+
+.fwiendFace {
+background-image: url(https://data.whicdn.com/images/351389658/original.jpg);
+border: 2px solid #fff;
+border-radius: 50%;
+font-size: 0;
+height: 100px;
+margin-bottom: 5px;
+margin-right: 5px;
+max-width: 100vw;
+width: 100px;
+}
+
+.fwiendCount {
+    color: #fff;
+}
+#viewFriends {
+    display: none;
+}
+
+#commentInput {
+    border: 1px solid #fff;
+    background: linear-gradient(#202020, #202020);
+border-radius: 5px;
+box-shadow: 0px 0px 10px #888888;
+padding: 0px;
+}
+#commentInput {
+    color: #f99fbf;
+text-align: center;
+font-family: "comic sans ms";
+}
+
+input, button {
+    background: linear-gradient(#202020, #202020);
+    color: #fff;
+    border: 1px solid #fff;
+    font-family: "arial";
+border-radius: 5px;
+box-shadow: 0px 0px 10px #888888;
+padding: 5px;
+}
+
+body {
+    font-family: "comic sans ms";
+}
+body {
+    text-align: center;
+font-size: 14px;
+}
+
+input, .fwiendFace b, .tableLeft b, .tableLeft img, #avatar.avatar, .fwiendFace img, .logo, div#hSub a, button, #add.boxButton, #sMsg.boxButton, #imgPreview img, #header a:not(.logo), #imgPreview {
+    cursor: url(http://cur.cursors-4u.net/anime/ani-1/ani195.png),auto!important;
+}
+html {
+    cursor: url(http://cur.cursors-4u.net/anime/ani-1/ani195.png),auto!important;
+}
+
+/* Start http://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/anime/ani-1/ani195.ani), url(http://cur.cursors-4u.net/anime/ani-1/ani195.png), auto !important;} /* End http://www.cursors-4u.com */
+

@@ -1,0 +1,254 @@
+body {
+    background-image: url(https://i.ibb.co/FXjQFS8/download-8.jpg);
+    background-size: cover;
+    font-family: "MS PGothic", "Meiryo", メイリオ, "Hiragino Kaku Gothic ProN", ヒラギノ角ゴ Pro W3, sans-serif;
+    font-size: 13px;
+    color: darkgray;
+    text-shadow: 0px 0px 5px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: #6e5d5d;
+}
+h4 {
+    color: #C0C0C0;
+}
+.fwiendCount {
+    color: #C0C0C0;
+}
+#name {
+    color: #C0C0C0;
+}
+div#header > a > b > span {
+    color: transparent;
+}
+div#header > a > b > span::before {
+    content: "LUCA LOVES YOU";
+    color: white;
+}
+img {
+    filter: grayscale(1);
+}
+
+
+
+#container {
+    max-width: 800px;
+    height: 1000px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #c1c1c1;
+    border: ridge #878585 8px;
+    font-family: "MS PGothic", "Meiryo", メイリオ, "Hiragino Kaku Gothic ProN", ヒラギノ角ゴ Pro W3, sans-serif;
+    text-align: center;
+}
+.topRight {
+    margin-top: 0px;
+    width: 450px;
+}
+.topLeft {
+    float: left;
+    width: 295px;
+    margin-left: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    background: #d3cfcf;
+    border: 5px double #8f8181;
+}
+.extended {
+    border: 1px solid #000;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.blurbs {
+    margin-bottom: 20px;
+    height: 260px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+.box.blurbs {
+    overflow-y: scroll;
+}
+#commentInput {
+    width: calc( 100% - 6px );
+    margin: 0;
+    margin-top: 10px;
+    background: lightgray;
+    height: 80px;
+    margin-bottom: 5px;
+}
+#userWall {
+    margin-top: 10px;
+    word-wrap: break-word;
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    height: 150px;
+    overflow-y: scroll;
+}
+.box.fwiends {
+    padding: 10px;
+    height: 175px;
+    margin-bottom: 10px;
+}
+.box {
+    border: none;
+    overflow: hidden;
+    background: #f0e6e663;
+    border: 5px double #8f8181;
+}
+.rightHead {
+    background: #fc90;
+    color: #ffffff;
+    padding-left: 4px;
+}
+.tableRight {
+    width: 75%;
+    background: #d3cfcf;
+    padding: 10px;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+}
+.tableLeft {
+    background: #858585;
+    width: 25%;
+    padding: 10px;
+    vertical-align: top;
+    overflow: hidden;
+}
+.boxHead {
+    background: #858585;
+    color: white;
+    padding: 3px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+}
+div#header {
+    background: #524848;
+}
+div#hSub {
+    background: #a29999;
+}
+
+/* contact box */
+
+#block {
+     font-size: 0px;
+}
+#report {
+     font-size: 0px;
+}
+#sMsg {
+     background-image: url(https://i.ibb.co/sHrLNL4/urmommmn.gif);
+     font-size: 0px;
+     margin-top: 10px;
+}
+#sMsg::after {
+     content: "Let's chat!!";
+     font-size: 13px;
+     color: white
+}
+#add {
+     background-image: url(https://i.ibb.co/sHrLNL4/urmommmn.gif);
+     font-size: 0px;
+}
+#add::after {
+     content: "Add me!";
+     font-size: 13px;
+     color: white
+}
+div#report.boxButton, div#block.boxButton {
+    display: none;
+}
+
+
+
+.player::after {
+     content: "";
+     top: 40px;
+     display: block;
+     position: relative;
+     width: calc(40% -20px);
+     height: 290px;
+     max-width: 250px;
+     background-position: 0 0;
+     background-size: 100% 100%;
+     background-image: url(https://i.ibb.co/LRvt7T7/Levelup-Yusuke.png); 
+     padding-bottom: 5px; 
+}
+
+
+
+/* KEYFRAMES */
+
+@keyframes floating { 
+    0% { transform: translate(0,  0px); } 
+    50%  { transform: translate(0, 20px); } 
+    100%   { transform: translate(0, -0px); }     
+} 
+
+@-webkit-keyframes reveal { from { opacity:0; } to { opacity:1; }  }
+   @-moz-keyframes reveal { from { opacity:0; } to { opacity:1; }  }
+     @-o-keyframes reveal { from { opacity:0; } to { opacity:1; }  }
+        @keyframes reveal { from { opacity:0; } to { opacity:1; }  }
+body {
+    -webkit-animation: 1s linear forwards reveal;
+     -moz-animation: 1s linear forwards reveal;
+       -o-animation: 1s linear forwards reveal;
+          animation: 4s linear forwards reveal;
+}
+.blurbs, .box, .box.comments {
+    animation-name: floating;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+
+
+/* invisible stuff */
+
+#footer > div > p { 
+   display: none;
+}
+#footer {
+  display: none;
+}
+
+/* blog */
+
+#container > div.topLeft.blogCard {
+    animation-name: none;
+    width: 250px;
+    margin-top: 20px;
+}
+#container > div.topRight.blogPost {
+    animation-name: none;
+    width: 490px;
+    margin-top: 5px;
+}
+.url {
+    font-size: 0px;
+    background: url(https://i.ibb.co/K6RPxZc/396-3961358-nakamasprite-persona-5-yusuke-confidant-hd-png-download-removebg-preview.png);
+    background-size: 310px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    color: transparent !important;
+    height: 256px;
+    width: 256px;
+    border: none;
+    box-shadow: none;
+    padding: 0 !important;
+    z-index: 1000;
+  
+}
+

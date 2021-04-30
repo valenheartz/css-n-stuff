@@ -12,7 +12,7 @@ a {
     color: white;
 }
 a:hover {
-    color: #C0C0C0;
+    color: #6e5d5d;
 }
 h4 {
     color: #C0C0C0;
@@ -27,7 +27,7 @@ div#header > a > b > span {
     color: transparent;
 }
 div#header > a > b > span::before {
-    content: "May I send you a love letter?";
+    content: "VALENHEARTZ LOVES YOU";
     color: white;
 }
 img {
@@ -151,7 +151,7 @@ div#hSub {
      margin-top: 10px;
 }
 #sMsg::after {
-     content: "Send me a love letter";
+     content: "Let's chat!!";
      font-size: 13px;
      color: white
 }
@@ -160,7 +160,7 @@ div#hSub {
      font-size: 0px;
 }
 #add::after {
-     content: "Let's be friends";
+     content: "Add me!";
      font-size: 13px;
      color: white
 }
@@ -180,7 +180,7 @@ div#report.boxButton, div#block.boxButton {
      max-width: 250px;
      background-position: 0 0;
      background-size: 100% 100%;
-     background-image: url("https://monophy.com/media/Mvyip8dagVFCmmgU4S/monophy.gif"); 
+     background-image: url(https://i.ibb.co/8BmKBQZ/Levelup-Futaba.png); 
      padding-bottom: 5px; 
 }
 
@@ -237,7 +237,7 @@ body {
 }
 .url {
     font-size: 0px;
-    background: url(https://i.ibb.co/mhk0MdF/07cc3d5e-abae-446e-ab3e-c63e81fba25b-removebg-preview.png);
+    background: url(https://i.ibb.co/0ssP4tt/Futaba-1.png);
     background-size: 310px;
     position: fixed;
     right: 0;
@@ -249,5 +249,6 @@ body {
     box-shadow: none;
     padding: 0 !important;
     z-index: 1000;
-    
   
+}
+

@@ -7,7 +7,7 @@ h4{
     white-space: pre-wrap;
     display: block;
     height: 285px;
-    background-image: url(lll), url(https://i.ibb.co/QDKB983/original-uhihu.jpg);
+    background-image: url(lll), url(https://i.ibb.co/xsPJJF7/yurilayout2.jpg);
     background-repeat: no-repeat, no-repeat, repeat, repeat, repeat, repeat;
     background-size: 390px;
 border-radius: 5px;
@@ -21,7 +21,7 @@ padding: 5px;
     white-space: pre-wrap;
     display: block;
     height: 300px;
-    background-image: url(lll), url(https://data.whicdn.com/images/351406589/original.jpg);
+    background-image: url(lll), url(https://i.ibb.co/xfBJJrD/yurilayout.gif);
     background-repeat: no-repeat, no-repeat, repeat, repeat, repeat, repeat;
     background-size: 390px;
 border-radius: 5px;
@@ -47,7 +47,7 @@ div {
 }
 
 .topRight > .box:not(.blurbs) > .rightHead > b::after {
-    content: "my friends :))";
+    content: "friends:)";
     font-size: 15px;
     color: #000;
 }
@@ -58,7 +58,7 @@ div {
     font-size: 0;
 }
 .blurbs.box > .rightHead > b > span.uName::after {
-    content: "*:･ﾟ✧all about me!*:･ﾟ";
+    content: "*:･ﾟ✧abt me*:･ﾟ";
     color: #000;
     font-size: 15px;
 }
@@ -157,7 +157,7 @@ padding: 5px;
 
 
 body {
-background-image: url(https://data.whicdn.com/images/351389033/original.jpg);
+background-image: url(https://i.ibb.co/tJv8D7H/yurilayout5.png);
 background-color: white; ;
 background-size:100% 100%;
 background-attachment:fixed;}

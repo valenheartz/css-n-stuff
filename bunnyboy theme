@@ -405,5 +405,49 @@ input, .fwiendFace b, .tableLeft b, .tableLeft img, #avatar.avatar, .fwiendFace 
 html {
     cursor: url(http://cur.cursors-4u.net/anime/ani-1/ani195.png),auto!important;
 }
+.avatar, .fwiendface {
+animation: gay 5s infinite !important;
 
-/* Start http://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/anime/ani-1/ani195.ani), url(http://cur.cursors-4u.net/anime/ani-1/ani195.png), auto !important;} /* End http://www.cursors-4u.com */
+}
+@keyframes gay {
+0% {transform: rotate(0deg);}
+100% {transform: rotate(360deg);}
+}
+
+img:hover {
+filter:invert(100%);
+transition: 0.2s ease;
+}
+
+img#avatar.avatar { 
+   border:3px solid pink;
+   border-radius: 1000px;
+   box-shadow: 2px 2px 5px black;
+}
+
+}
+
+.url.box {
+animation: boot 0.9s steps(1) none;
+animation-fill-mode: forwards;
+}
+@keyframes boot { 0% { cursor: none;
+background: url(https://i.pinimg.com/originals/f4/c3/fc/f4c3fcbf28950b2c66ab46553f619963.gif);
+background-position: center;
+background-size: 100%;
+background-repeat: no-repeat;
+position: fixed;
+right: 0;
+bottom: 0px;
+top: 0;
+left: 0;
+border: none;
+box-shadow: none;
+z-index: 1000;
+
+}
+
+
+.tableLeft img {
+    filter: grayscale(100%);
+}

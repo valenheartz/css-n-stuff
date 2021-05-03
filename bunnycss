@@ -1,0 +1,479 @@
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat984.cur), auto !important;} /* End https://www.cursors-4u.com */
+
+body {
+background-image: url(https://i.ibb.co/tpwqbC4/bunnylayout3.jpg);
+color: #ff00a2;
+font-family: "sans-serif";
+text-shadow: 1px 1px 2px #ffe3f5;
+text-align: center;
+}
+
+img#avatar.avatar { 
+   border:3px solid blue;
+   border-radius: 1000px;
+   box-shadow: 2px 2px 5px black;
+}
+
+
+.player::before {
+    content: "";
+    display: block;
+    position: relative;
+    width: calc(40% -20px);
+    height: 390px;
+    max-width: 390px;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-image: url(https://gravepuppy.carrd.co/assets/images/image02.png?v=bebe72cd);
+}
+.player::before{
+background-size: 170px;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: -200px;
+    top: 70px;
+    height: 500px;
+    width: 1000px;
+    padding: 0;
+    z-index: 10000;
+}
+
+html::after {
+  content: "";
+  background: transparent url(https://gravepuppy.carrd.co/assets/images/image08.png?v=bebe72cd) no-repeat;
+  background-size: 200px;
+  position: fixed;
+  float: right;
+  display: block;
+  bottom: 0;
+  left: 1px;
+  height: 250px;
+  width: 200px;
+}
+
+#top {
+    margin: auto;
+    padding-top: 10px;
+    padding: 10px;
+}
+
+.logo{
+      font-size:0;
+}
+     .logo::after{
+     font-size:15px;
+     font-weight:800;
+     font-family: "MS PGothic", "Meiryo", メイリオ, "Hiragino Kaku Gothic ProN", ヒラギノ角ゴ Pro W3, sans-serif;
+     text-transform: lowercase;
+    
+    background-image: linear-gradient(45deg, #ffc2e9, #ffc2e9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    
+    content: "˗ˏˋ ʚ 🦇.🏩.🦴ɞ ˎˊ˗";
+}
+
+}
+
+.tableLeft img {
+    filter: grayscale(100%);
+}
+
+.topRight {
+    overflow-y:scroll;
+    height: 500px;
+}
+
+div.boxInfo.box{
+background-color:rgba(255, 255, 255, 0.5);
+border: 3px solid #ff00a2;
+padding: 3px 3px;
+box-shadow: 2px 2px 5px #ff85d8;
+border-radius: 15px;
+}
+
+}
+
+.fwiendFace { 
+    background: url("https://i.pinimg.com/originals/47/9f/32/479f323890b74a71eeaf766e689da522.gif") repeat; 
+    background-position: center; 
+    font-size: 13px; 
+    font-color: #fff;
+}
+
+.fwiendFace img {
+    opacity: 0;
+}
+
+.fwiendFace img:hover {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.3s;
+}
+.fwiendFace {
+    transition: 0.5s;
+}
+.fwiendFace:hover {
+    border-radius: 5px;
+    transform: scale(1.2);
+    background: url(https://i.pinimg.com/originals/50/74/ea/5074ead53693fc6b9525243049d65aa4.gif);
+    animation: wob .5s linear infinite;
+    box-shadow: 0 0 1rem #ff33be;
+    border: 1px solid #ff00ae;
+    transition: 0.3s;
+}
+
+#container {background-image: url("https://i.pinimg.com/originals/0b/7c/b8/0b7cb8c719ba7f1c60c63bfda173b80a.jpg");
+background-opacity: 0,5;
+}
+
+.blurbs {background-image: url("https://i.pinimg.com/564x/5d/7d/9a/5d7d9af3f7aa94089e4f6c4df38e7973.jpg");
+background-size: 1688px 2137px;
+border-radius: 10px;
+}
+
+}
+img {
+    image-rendering: initial;
+}
+
+.logo b {
+opacity: 1;
+animation: fade 7s linear;
+animation-iteration-count:infinite;
+}
+
+@keyframes fade {
+0%,100% { opacity: 0 }
+50% { opacity: 1 }
+}
+
+.topLeft {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+@media only screen and (max-width: 768px)
+.topLeft {
+    margin-top: 30px;
+}
+@media only screen and (max-width: 768px)
+.topLeft, .topRight {
+    width: auto;
+    float: none;
+}
+.topLeft {
+    float: left;
+    width: calc( 40% - 20px );
+    padding: 10px;
+}
+
+td.shortRight{
+background-color:rgba(255, 255, 255, 0.5);
+border: 3px solid #ffb0e6;
+padding: 3px 3px;
+box-shadow: 2px 2px 5px #ff00ae;
+border-radius: 15px;
+}
+ 
+div.boxHead{
+background-color:white;
+color:pink;
+}
+ 
+div.boxInfo.box{
+background-color:rgba(255, 255, 255, 0.5);
+border: 3px solid #ffb0e6;
+padding: 3px 3px;
+box-shadow: 2px 2px 5px #ff00ae;
+border-radius: 15px;
+}
+
+.fwiendFace img {
+height: 128px; 
+object-position: top;
+object-fit: cover;
+}
+
+#block {
+    display: none;
+
+}
+#report {
+    display: none;
+
+}
+#sMsg {
+    background-image: url(https://cutekawaiiresources.files.wordpress.com/2016/11/kuromi-61.gif);
+    font-size: 0;
+}
+#add {
+    background-image: url(https://cutekawaiiresources.files.wordpress.com/2016/11/my-melody-bullet-45.gif?w=560);
+    font-size: 0px;
+
+}
+#sMsg::after {
+    content: "talk 2 the puppy !! ^_^";
+    font-size: 14px;
+    color: #ff75d3;
+}
+#add::after {
+    content: "pet the puppy !! >_<";
+    font-size: 14px;
+    color: #ff75d3;
+}
+
+}
+h2#name {
+    font-size: 0px;
+    padding: 1px;
+    background: transparent;
+    width: 185px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+h2#name::after {
+    content: "₍ᐢ ̥ ̞ ̥ᐢ₎ ♥";
+    font-size: 27px;
+    font-weight: bold;
+    color: transparent;
+    letter-spacing: 1.5px;
+    text-transform: none;
+    background-size: 422px;
+    -webkit-text-stroke: 0.3px #cfe8ff;
+    color: #5eb3ff;
+    text-shadow: 0 0 9px #cfe8ff;
+}
+
+span#lastLogin::after {
+    content: url(https://64.media.tumblr.com/25dfdb7567755fe53b7a2c1b1a7b5f97/2b90c9b31f507430-b3/s75x75_c1/953ab1be264e31027781521cfa53f2af54bc27df.png);
+    font-size: 10px;
+    color: #000000;
+    text-shadow: 0 0 4px #000000;
+    -webkit-text-stroke: 0.5px;
+}
+
+}
+.songName {
+    overflow: hidden;
+    background-image: url(https://i.imgur.com/Mp2FH8h.gif);
+    border-radius: 3px;
+    margin-top: 0px;
+    font-size: small;
+    box-shadow: 0px 4px 6px -5px #333;
+    text-shadow: 0px -2px #333;
+    color: white;
+    padding: 5px;
+}
+}
+.songName {
+    white-space: nowrap;
+}
+.songName b {
+    display: none;
+}
+.songTitle:after {
+    content: ".mp3";
+}
+@keyframes marquee {
+0% {
+    text-indent: 100%;
+}
+
+100% {
+    text-indent: -180%;
+ }
+}
+.songTitle {
+    display: block;
+    animation: marquee 20s linear infinite;
+}
+.player {
+    background-image: url("https://64.media.tumblr.com/3fc0d08bf1861045a9019fe1dc5cc1a0/4dd910c9783cce1a-fc/s540x810/2dde521e3a0c13b66d526100ea3bcd97ba67c9c9.jpg");
+    border: 3px solid #ff42c3;
+    border-radius: 15px;
+    padding: 0;
+}
+
+}
+.rightHead {
+    background: #ffffff;
+    color: #b3dbff;
+    border-radius: 2px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid #ffc2ec;
+    border-radius: 2px;
+}
+
+h4 {
+    color: #ffc2ec;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    text-decoration-line: underline;
+    text-align: center;
+}
+.extended {
+    border: 1px solid #000;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border-radius: 2px;
+    background: white;
+    color: #ffc2ec;
+}
+.fwiendCounter {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 4px;
+    font-size: 19px;
+    background: white;
+    border: 1px solid #ffc2ec;
+    border-radius: 2px;
+    text-align: center;
+}
+.fwiendCount {
+    color: #ff00ae;
+}
+
+#online {
+content: url(https://64.media.tumblr.com/9dd15123a9cc621774fdc5bf5254ece5/b3c958ac57fc6116-0a/s100x200/d7c008d3c3abd1e557bfee682e55dcd25baf812f.gifv);
+}
+
+div#header {
+    all: unset;
+    font-family: font name;
+    font-size: 15px;
+    background: url(https://i.pinimg.com/564x/5d/7d/9a/5d7d9af3f7aa94089e4f6c4df38e7973.jpg);
+    color: color name;
+    position: fixed;
+    width: calc( 100% - 15px );
+    height: 22px;
+    padding: 5px;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+    padding-top: 6px;
+    overflow: hidden;
+    z-index: 300;
+}
+.rightHead {
+    background: #cfe8ff;
+    color: #f7fbff;
+    padding-left: 4px;
+}
+.tableLeft{
+    background-image: url(https://i.pinimg.com/564x/5d/7d/9a/5d7d9af3f7aa94089e4f6c4df38e7973.jpg);
+    background-size: cover;
+}
+div#hSub{
+    background: #cfe8ff;
+    color: #f7fbff;
+}
+
+.tableRight{
+    background: #cfe8ff;
+}
+.boxHead {
+    background: #cfe8ff;
+    color: #f7fbff;
+    padding: 3px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+}
+
+#commentInput{
+background-image: url(https://i.pinimg.com/564x/5d/7d/9a/5d7d9af3f7aa94089e4f6c4df38e7973.jpg)
+}
+
+}
+.extended.box {
+    background-color: #fff0fa;
+    border: 3px solid #cfe8ff;
+    padding: 3px 3px;
+    border-radius: 15px;
+}
+.extended.box {
+    background-color: #fff0fa;
+    border: 3px solid #cfe8ff;
+    padding: 3px 3px;
+    border-radius: 15px;
+}
+@keyframes slideup{
+ 
+     from {
+ 
+           margin-right:-100%;
+ 
+}
+ 
+ 
+     to {
+ 
+           margin-right:0;
+ 
+     }
+ 
+}
+ 
+ 
+@media screen and (max-device-width: 768px){
+ 
+     div#footer {
+ 
+     visibility:hidden;
+ 
+     }
+ 
+}
+ 
+ 
+@media only screen and (max-width : 768px){
+ 
+* {
+ 
+     -moz-animation:none!important;
+ 
+     -ms-animation:none!important;
+ 
+     -o-animation:none!important;
+ 
+     -webkit-animation:none!important;
+ 
+     animation:none!important;
+ 
+     }
+ 
+}
+
+.url.box {
+animation: boot 0.9s steps(1) none;
+animation-fill-mode: forwards;
+}
+@keyframes boot { 0% { cursor: none;
+background: url(https://i.pinimg.com/originals/f4/c3/fc/f4c3fcbf28950b2c66ab46553f619963.gif);
+background-position: center;
+background-size: 100%;
+background-repeat: no-repeat;
+position: fixed;
+right: 0;
+bottom: 0px;
+top: 0;
+left: 0;
+border: none;
+box-shadow: none;
+z-index: 1000;
+
+}
+
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat984.cur), auto !important;} /* End https://www.cursors-4u.com */

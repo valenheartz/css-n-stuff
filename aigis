@@ -1,0 +1,611 @@
+content: url(https://64.media.tumblr.com/bf47d42e5ae52f4c49497e3782ca9c12/005dbf061fabc0c8-6d/s250x250_c1/8807bd70d376c90b1309c6464833e9eb0fa6d238.gifv);
+
+
+
+
+display: block;
+
+
+margin-left: auto;
+
+
+margin-right: 50px;
+
+
+width: 100%;
+
+
+}
+
+
+#header, #hSub {
+
+
+background:#ADD8E6 !important;
+
+
+border-bottom: 1px solid #fff !important;
+
+
+border-radius: 10px;
+
+
+color:black;
+
+
+}
+
+
+.fwiendCount {
+
+
+color: #000;
+
+
+}
+
+
+.url {
+
+
+border: solid 2px #000;
+
+
+padding: 2px;
+
+
+}
+
+
+::selection {
+
+
+color: black;
+
+
+background: #ADD8E6;
+
+
+}
+
+
+body {
+
+
+background-image:url(https://i.pinimg.com/originals/8e/05/38/8e05388cac099a4c8aeefcd8fafaee0f.jpg);
+
+
+font-family: Times New Roman;
+
+
+padding-top: 45px;
+
+
+font-size: 15px;
+
+
+color:black;
+
+
+background-attachment:fixed;
+
+
+background-size: 40%;
+
+
+}
+
+
+#gender {
+
+
+font-size:0px;
+
+
+content:"";
+
+
+}
+
+
+#gender:after {
+
+
+font-size:15px;
+
+
+content:"Aigis";
+
+
+}
+
+
+.blog {
+
+
+background: #ADD8E6;
+
+
+border-radius: 23px 23px 24px 24px;
+
+
+border: 5px solid black;
+
+
+color:white;
+
+
+position: -webkit-sticky;
+
+
+position: sticky;
+
+
+}
+
+
+div.box.blurbs, .shortRight {
+
+
+background: #ADD8E6;
+
+
+border-radius: 23px 23px 24px 24px;
+
+
+border: 5px solid black;
+
+
+color:white;
+
+
+position: -webkit-sticky;
+
+
+position: sticky;
+
+
+width: 330px;
+
+
+height: 350px;
+
+
+}
+
+
+div.box.blurbs {
+
+
+background-color: #ADD8E6;
+
+
+border: 1px solid #000;
+
+
+border-image-slice: 100%;
+
+
+border-image-slice: 1;
+
+
+border-radius: 16px;
+
+
+padding: 11px 11px;
+
+
+box-shadow: 2px 2px 5px #000000;
+
+
+}
+
+
+.box.blurbs {
+
+
+height: 380px;
+
+
+overflow-y: auto;
+
+
+padding-bottom: 10px;
+
+
+}
+
+
+::-webkit-scrollbar {
+
+
+width: 15px;
+
+
+}
+
+
+::-webkit-scrollbar-thumb {
+
+
+border-radius: 10px;
+
+
+background: white;
+
+
+box-shadow: inset 0 0 6px white;
+
+
+}
+
+
+::-webkit-scrollbar-thumb {
+
+
+background: pink;
+
+
+}
+
+
+::-webkit-scrollbar-track {
+
+
+background: black;
+
+
+box-shadow: inset 0 0 10px white;
+
+
+border-radius: 10px;
+
+
+}
+
+
+::-webkit-scrollbar-track {
+
+
+background: pink;
+
+
+}
+
+
+.uName {
+
+
+color:#fc90;
+
+
+}
+
+
+h4 {
+
+
+color:black;
+
+
+}
+
+
+.avatar {
+
+
+image-rendering: revert;
+
+
+border-radius: 800px;
+
+
+width: 200px;
+
+
+margin-right: 20px;
+
+
+cursor: zoom-in;
+
+
+image-orientation: from-image;
+
+
+border: 8px double black;
+
+
+}
+
+
+.rightHead {
+
+
+background: #fc90;
+
+
+color: #000000;
+
+
+padding-left: 4px;
+
+
+font-size:0px;
+
+
+content:"";
+
+
+}
+
+
+.rightHead:after {
+
+
+font-size:15px;
+
+
+content:"No flex zone B)";
+
+
+color:black;
+
+
+}
+
+
+span.fwiendCount {
+
+
+color:white;
+
+
+}
+
+
+span.fwiendCount::after {
+
+
+content: " lovely";
+
+
+font-size: 15px;
+
+
+color: black;
+
+
+}
+
+
+.boxHead {
+
+
+background:#ADD8E6;
+
+
+padding: 3px;
+
+
+padding-bottom: 4px;
+
+
+padding-left: 6px;
+
+
+font-size:0px;
+
+
+content:"":
+
+
+}
+
+
+.boxHead:after {
+
+
+font-size:15px;
+
+
+Content:"talk to me";
+
+
+}
+
+
+.boxButton {
+
+
+display: inline-block;
+
+
+width: calc( 49% - 60px );
+
+
+padding-left: 30px;
+
+
+height: 24px;
+
+
+font-size: small;
+
+
+color: black;
+
+
+padding-top: 7px;
+
+
+background: #ADD8E6;
+
+
+}
+
+
+a:-webkit-any-link {
+
+
+color: black;
+
+
+cursor: pointer;
+
+
+text-decoration: underline;
+
+
+}
+
+
+.player {
+
+
+padding: 4px;
+
+
+margin-top: 20px;
+
+
+margin-bottom: 20px;
+
+
+background: #00000000;
+
+
+color: #0000;
+
+
+width: calc(100% - 10px );
+
+
+border: 1px solid #000;
+
+
+animation-name: shake !important;
+
+
+animation-duration: 3s;
+
+
+animation-iteration-count: infinite;
+
+
+}
+
+
+.player::after {
+
+
+content: "";
+
+
+top: 40px;
+
+
+display: block;
+
+
+position: relative;
+
+
+width: calc(40% -20px);
+
+
+height: 400px;
+
+
+max-width: 400px;
+
+
+background-position: 0 0;
+
+
+background-size: 100% 100%;
+
+
+background-image: url(https://i.pinimg.com/originals/66/08/e5/6608e58ff4a6d998541a8def032a6ade.gif);
+
+
+}
+
+
+#sMsg, #add {
+
+
+color: white;
+
+
+background-image: url(https://64.media.tumblr.com/3db31cf3928a8fe5849f4daceecc10ff/e5aa0771ddd1e557-17/s100x200/109ef8c9b4e0ba8463a10138fa18ddb5cf44b7fd.png);
+
+
+background-size: 20%;
+
+
+}
+
+
+#block, #report, #remove {
+
+
+color: white;
+
+
+background-image: url(https://64.media.tumblr.com/0273bac606cffa80acac02b8165c2489/7db98b51037c9083-14/s100x200/971992c9bdc2d5b6706ef995e6b45558cddef040.png);
+
+
+background-size: 20%;
+
+
+}
+
+
+.avatar, .tableRight, .tableLeft, .uName {
+
+
+background:#fff0;
+
+
+padding: 15px;
+
+
+animation-name: floating !important;
+
+
+animation-duration: 3s;
+
+
+animation-iteration-count: infinite;
+
+
+}
+
+
+@keyframes floating {
+
+
+0% {
+
+
+transform: translate(-25px, -50px);
+
+
+}
+
+
+50% {
+
+
+transform: translate(-25px, 50px);
+
+
+}
+
+
+100% {
+
+
+transform: translate(-25px, -50px);
+
+

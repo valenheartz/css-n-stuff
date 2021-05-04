@@ -1,337 +1,389 @@
-}
-
-
-#header, #hSub {
-
-
-background:#ADD8E6 !important;
-
-
-border-bottom: 1px solid #fff !important;
-
-
-border-radius: 10px;
-
-
-color:black;
-
-
-}
-
-
-.fwiendCount {
-
-
-color: #000;
-
-
-}
-
-
-.url {
-
-
-border: solid 2px #000;
-
-
-padding: 2px;
-
-
-}
-
-
-::selection {
-
-
-color: black;
-
-
-background: #ADD8E6;
-
-
-}
-
-
 body {
-
-
-background-image:url(https://i.pinimg.com/originals/8e/05/38/8e05388cac099a4c8aeefcd8fafaee0f.jpg);
-
-
-font-family: Times New Roman;
-
-
-padding-top: 45px;
-
-
-font-size: 15px;
-
-
-color:black;
-
-
-background-attachment:fixed;
-
-
-background-size: 40%;
-
-
+    background-image: url(https://th.bing.com/th/id/R4bd583f…?rik=rrqCmC5BBWuByQ&riu=http%3a%2f%2fcdn.lowgif.com%2fsmall%2fec784a2e6e6cc82d-aesthetic-tumblr-wallpaper.gif&ehk=xrDoSkdlqxzOYZ9vuDaUi5h1%2f5KY3OAobdw8UBrmn%2bU%3d&risl=&pid=ImgRaw);
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
 }
 
 
-#gender {
-
-
-font-size:0px;
-
-
-content:"";
-
-
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
 
-
-#gender:after {
-
-
-font-size:15px;
-
-
-content:"Aigis";
-
-
-}
-
-
-.blog {
-
-
-background: #ADD8E6;
-
-
-border-radius: 23px 23px 24px 24px;
-
-
-border: 5px solid black;
-
-
-color:white;
-
-
-position: -webkit-sticky;
-
-
-position: sticky;
-
-
-}
-
-
-div.box.blurbs, .shortRight {
-
-
-background: #ADD8E6;
-
-
-border-radius: 23px 23px 24px 24px;
-
-
-border: 5px solid black;
-
-
-color:white;
-
-
-position: -webkit-sticky;
-
-
-position: sticky;
-
-
-width: 330px;
-
-
-height: 350px;
-
-
-}
-
-
-div.box.blurbs {
-
-
-background-color: #ADD8E6;
-
-
-border: 1px solid #000;
-
-
-border-image-slice: 100%;
-
-
-border-image-slice: 1;
-
-
-border-radius: 16px;
-
-
-padding: 11px 11px;
-
-
-box-shadow: 2px 2px 5px #000000;
-
-
-}
-
-
-.box.blurbs {
-
-
-height: 380px;
-
-
-overflow-y: auto;
-
-
-padding-bottom: 10px;
-
-
-}
-
-
-::-webkit-scrollbar {
-
-
-width: 15px;
-
-
-}
-
-
-::-webkit-scrollbar-thumb {
-
-
-border-radius: 10px;
-
-
-background: white;
-
-
-box-shadow: inset 0 0 6px white;
-
-
-}
-
-
-::-webkit-scrollbar-thumb {
-
-
-background: pink;
-
-
-}
-
-
-::-webkit-scrollbar-track {
-
-
-background: black;
-
-
-box-shadow: inset 0 0 10px white;
-
-
-border-radius: 10px;
-
-
-}
-
-
-::-webkit-scrollbar-track {
-
-
-background: pink;
-
-
-}
-
-
-.uName {
-
-
-color:#fc90;
-
-
-}
 
 
 h4 {
+  color: #fff;
+  margin: 0;
+  font-family: ocr a;
+  background-image: linear-gradient(to right,black, #ba1212 , black);
+}
 
-
-color:black;
-
-
+* {
+  color: #9d3c3c;
+  font-family: ocr a;
+cursor: url(https://cur.cursors-4u.net/others/oth-9/oth801.cur), auto !important;
 }
 
 
-.avatar {
-
-
-image-rendering: revert;
-
-
-border-radius: 800px;
-
-
-width: 200px;
-
-
-margin-right: 20px;
-
-
-cursor: zoom-in;
-
-
-image-orientation: from-image;
-
-
-border: 8px double black;
-
-
+button, input[type=submit] {
+  padding: 5px;
+  background: #101010;
+  color: #aaa;
+  border: 1px solid #2b2b2b;
+  border-radius: 3px;
+  margin-top: 10px;
 }
 
-
-.rightHead {
-
-
-background: #fc90;
-
-
-color: #000000;
-
-
-padding-left: 4px;
-
-
-font-size:0px;
-
-
-content:"";
-
-
+a, a h3, .boxInfo a div, .fwiendFace b {
+  text-shadow: 2px 2px #702020;
 }
 
+.blurbs, #box, #header, #hSub, #commentInput {
+    background: black;
+    border: 1px solid #9d1111;
+    padding: 0px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 50px #592727;
+}
 
-.rightHead:after {
+.extended.box {
+    background-image: url(https://data.whicdn.com/images/332590050/original.gif);
+}
 
+.box > :not(#form) {
+   padding: 7px;
+  text-align: center;
+}
 
-font-size:15px;
+#form > {
+  padding: 7px;
+}
 
+.url.box a {
+    color: #aaa !important;
+    padding: 2px;
+    background-image: url(https://data.whicdn.com/images/332590050/original.gif);
+    border: none;
+}
 
-content:"No flex zone B)";
+.rightHead, .boxHead {
+  background-image: url(https://data.whicdn.com/images/332590050/original.gif);
+  padding: 7px;
+  border-bottom: 1px solid #1b1b1b;
+  font-family: ocr a;
+}
 
+.rightHead b, .rightHead span, .boxHead b, .box.url b {
+  color: #fff;
+  font-family: ocr a;
+}
 
-color:black;
+#avatar {
+  border-radius: 25px;
+    background: #c82020;
+    padding: 10px;
+    width: 155px;
+    height: 150px;
+}
 
+#hSub {
+  top: 35px !important;
+  text-indent: 500px;
+}
+
+#header, #hSub {
+    width: calc( 100% - 15px );
+    border-bottom: 1px solid #000 !important;
+    background: linear-gradient(
+90deg
+,#240303 , #4f0d0d, #a91f1f, #b20808 100%)!important;
+    text-align: center;
+    border-top: 2px solid #260808;
+    border-bottom: 2px solid #fff;
+    color: black !important;
+}
+
+.blurbs, #box,
+}
+
+div#hSub a:first-child {
+  border-bottom: 2px solid #00ccff;
+  padding-bottom: 7px;
+}
+
+#name {
+  color: #fff;
+  font-family: ocr a;
+}
+
+/* Comments */
+
+.tableLeft {
+  background: none;
+  width: 20% !important;
+  font-family: ocr a;
+}
+
+.tableRight {
+  background: none;
+  font-family: ocr a;
+}
+
+.tableLeft img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.date {
+  color: #505050;
+  font-family: ocr a;
+}
+
+.tableLeft a div b {
+  color: red;
+  float: left;
+  margin-bottom: 7px !important;
+  font-family: ocr a;
+}
+p {
+    margin: 15px;
+}
+.player::after {
+    content: "";
+    display: block;
+    position: relative;
+    width: calc(40% -20px);
+    height: 300px;
+    max-width: 500px;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-image: url(https://66.media.tumblr.com/d3fefcec6a466d1e66bfd4451ddc64c9/tumblr_ozbx86pCdW1w5n1g1o1_540.gif);
+}
+
+.boxButton {
+    display: inline-block;
+    width: calc( 49% - 60px );
+    padding-left: 30px;
+    height: 24px;
+    font-size: small;
+    color: red;
+    padding-top: 7px;
+}
+
+#container {
+    max-width: 1024px;
+    margin-left: auto;
+    background-color: black;
+    margin-right: auto;
+    box-shadow: 10px 10px 100px #ba1f1f;
+}
+
+.fwiendFace img {
+    width: 70%;
+    border-radius: 60px;
+    height: 90px;
+    object-fit: cover;
+    padding: 3px;
+    background: #a70e0e;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+audio {
+    margin-bottom: 0px;
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+    background: #f3f3f3;
+    outline: none;
+    margin-bottom: -3px;
+    filter: sepia(0%) saturate(100%) grayscale(0) contrast(100%) invert(100%);
+}
+.player {
+    padding: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #0b0b0b;
+    color: #000;
+    width: calc(100% - 10px );
+    border: 1px solid #8b0b0b;
+}
+
+.fwiendFace b {
+    text-shadow: 2px 2px #702020;
+    padding: 10px;
+}
+.blog {
+    background-color: #260f0f;
+    padding: 15px;
+}
+
+img:hover {
+animation-name: shake;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+0% {transform: translate(1px, 1px) rotate(0deg);}
+10% {transform: translate(-1px, -2px) rotate(-1deg);}
+20% {transform: translate(-3px, 0px) rotate(1deg);}
+30% {transform: translate(3px, 2px) rotate(0deg);}
+}
+
+#sMsg {
+    background-repeat: no-repeat;
+    background-image: url(https://64.media.tumblr.com/3f9d031b8bb9ffe5bdb0ea0e23c07f31/tumblr_inline_p7gi20aXG41qfc9y0_75sq.gifv);
+}
+
+#block {
+    background-repeat: no-repeat;
+    background-image: url(https://64.media.tumblr.com/3f9d031b8bb9ffe5bdb0ea0e23c07f31/tumblr_inline_p7gi20aXG41qfc9y0_75sq.gifv);
+}
+
+#report {
+    background-repeat: no-repeat;
+    background-image: url(https://64.media.tumblr.com/3f9d031b8bb9ffe5bdb0ea0e23c07f31/tumblr_inline_p7gi20aXG41qfc9y0_75sq.gifv);
+}
+
+#add {
+    background-repeat: no-repeat;
+    background-image: url(https://64.media.tumblr.com/3f9d031b8bb9ffe5bdb0ea0e23c07f31/tumblr_inline_p7gi20aXG41qfc9y0_75sq.gifv);
+}
+
+.topLeft:after {
+    content: "";
+    white-space: pre-wrap;
+    display: block;
+    height: 500px;
+    background-image: url(lll), url(https://i.pinimg.com/originals/f0/2c/73/f02c73fb1dfa6446054e64c962a2fc27.gif);
+    background-repeat: no-repeat, no-repeat, repeat, repeat, repeat, repeat;
+    background-size: 390px;
+}
+
+.blogs {
+    display: flex;
+    flex-grow: 3;
+    margin: 15px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.blurbs>.blogs>div:not(:first-child):before {
+    content: "";
+    display: block;
+    width: 96px;
+    height: 64px;
+    background: url(https://64.media.tumblr.com/17f6ec7518331fb64f83542c4bfb831b/87bab991493b88d4-89/s75x75_c1/a1168e0f4119e125077201ecf0b46e754b7511c0.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px;
+}
+
+.blurbs>.blogs>div:not(:first-child) {
+    width: 96px;
+    text-align: center;
+    margin: 0px;
+}
+
+.box.blurbs {
+    overflow: auto;
+    margin: 5px;
+    padding: 5px;
+    height: 540px;
+    overflow: auto;
+}
+
+.url {
+    border: solid 2px #ac1c1c;
+    padding: 2px;
+}
+
+.blog {
+    background-color: #260f0f;
+    padding: 15px;
+    width: 700px;
+}
+
+#userWall {
+    margin-top: 10px;
+    overflow-wrap: break-word;
+    display: inline-block;
+    width: 100%;
+    margin:5px;
+    padding:5px;
+    height: 400px;
+    overflow: auto;
+}
+
+.logo::after {
+    content: "I'll always remain here by your side.";
+    text-shadow: 2px 2px 4px white;
+    color: white;
+    line-height: 10px;
+    font-size: 20px;
+    padding: 70px;
+}
+
+.blinkGreen {
+    animation: blinkingTextRed 0.3s infinite;
+}
+
+.blinkYellow {
+    animation: blinkingTextRed 0.3s infinite;
+}
+
+.blinkViolet {
+    animation: blinkingTextRed 0.3s infinite;
+}
+
+.songName span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee{
+0% {
+    transform: translate(0, 0);
+}
+
+100% {
+    transform: translate(-100%, 0);
+}
 
 }
+div.songName {
+    color: #0a0000;
+}
+.songName img {
+    display: none;
+}
+
+}
+.player a img, .player audio::-webkit-media-controls-play-button, .player audio::-webkit-media-controls-mute-button, .player audio::-webkit-media-controls-volume-slider, .player audio::-webkit-media-controls-timeline {
+    filter: invert();
+    -webkit-filter: invert();
+}
+.player audio, .player audio::-webkit-media-controls, .player audio::-webkit-media-controls-enclosure, .player audio::-webkit-media-controls-panel {
+    background: #fff;
+    background: var(--color--bg-box);
+    height: 36px;
+    filter: none;
+}
+
+.blogs b {
+    display: none;
+}
+
+span, #header {
+    text-indent: -207;
+}
+
+span.sep {
+    color: white;
+}
+
+.logo b span {
+    display: none;

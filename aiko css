@@ -1,0 +1,533 @@
+body {
+    background-image: url(https://i.ibb.co/8X4dtqF/download.jpg);
+    font-family: ocr a;
+    background-attachment: fixed;
+}
+.topRight {
+    float: left;
+    width: calc( 60% - 20px );
+    padding: 10px;
+    background-color: black;
+    margin-top: 20px; 
+    color: white;
+    box-shadow: 0px 0px 30px white;
+    border-radius: 50px;
+}
+.topLeft {
+    float: right;
+    margin-top: 20px;
+    color: #fff;
+}
+td.shortRight {
+    color: #fff;
+    font-family: ocr a;
+    text-shadow: 2px 2px #232323;
+    text-align: center;
+    text-transform: lowercase;
+}
+.avatar {
+    width: 200px;
+    margin-right: 20px;
+    cursor: zoom-in;
+    image-orientation: from-image;
+    border-radius: 500px;
+    border:none;
+}
+h2#name {
+    font-family: ocr a;
+    text-align: center;
+    color: #fff;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+}
+.boxHead {
+    background: #000000;
+    color: white;
+    padding: 3px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    text-align: center;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+}
+.boxInfo {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: black;
+    border-radius: 5px;
+}
+.boxButton {
+    display: inline-block;
+    width: calc( 49% - 60px );
+    padding-left: 30px;
+    height: 24px;
+    font-size: small;
+    color: white;
+    padding-top: 7px;
+    text-shadow: 2px 2px #131313;
+    text-transform: lowercase;
+}
+.player {
+    padding: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: black;
+    color: #fff;
+    width: calc(100% - 10px );
+    border: 1px solid #000;
+    text-align: center;
+    text-transform: lowercase;
+    border-radius: 5px;
+}
+h3 {
+    text-transform: lowercase;
+    color: #525252;
+}
+h3:hover {
+     animation: changeColor 1s linear infinite;
+}
+.rightHead {
+    background: #fff;
+    color: #000000;
+    padding-left: 4px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+}
+h4 {
+    color: #ffffff;
+    margin-bottom: 0px;
+    text-align: center;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+}
+p {
+    margin: 0;
+    text-align: center;
+    color: #dedede;
+}
+.fwiendCounter {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.fwiendCount {
+    color: #525252;
+}
+.fwiendFace {
+    max-width: 25%;
+    display: inline-grid;
+    width: calc( 24% - 6px );
+    padding: 3px;
+    text-align: center;
+    color: #525252;
+    filter: grayscale(1);
+}
+.fwiendFace:hover {
+    animation: changeColor 1s linear infinite;
+}
+#viewFriends {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: lowercase;
+}
+a {
+    color: #525252;
+}
+.tableLeft {
+    background: #0c0c0c;
+    width: 25%;
+    padding: 10px;
+    vertical-align: top;
+    overflow: hidden;
+    border-radius: 20px;
+    filter: grayscale(1);
+    animation: changeColor 1s linear infinite;
+}
+.tableRight {
+    width: 75%;
+    background: #0c0c0c;
+    padding: 10px;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+    border-radius: 20px;
+    filter: grayscale(1);
+}
+div#header {
+    background: url(https://i.pinimg.com/564x/13/fb/78/13fb786079bc038e5a638be1522d5340.jpg);
+    font-family: ocr a;
+    text-transform: lowercase;
+}
+div#hSub {
+    all: unset;
+    font-family: ocr a;
+    font-size: 15px;
+    background: #000000;
+    font-size: small;
+    margin: 0px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-left: 10px;
+    padding-top: 4px;
+    position: fixed;
+    left: 0;
+    top: 34px;
+    width: calc(100% - 15px );
+    color: #fff;
+    height: 15px;
+    z-index: 300;
+    text-align: center;
+    text-transform: lowercase;
+}
+#sMsg {
+    background-repeat: no-repeat;
+    background-image: url(https://cutekawaiiresources.files.wordpress.com/2013/03/pinkcat13.gif?w=150&h=150);
+    font-size: 0px;
+    background-size: contain;
+    filter: grayscale(1);
+}
+#sMsg::after {
+    content: "message?";
+    font-size: small;
+}
+#add {
+    background-repeat: no-repeat;
+    background-image: url(https://cutekawaiiresources.files.wordpress.com/2013/03/pinkcat3.gif?w=150&h=150);
+    font-size: 0px;
+    background-size: contain;
+    filter: grayscale(1);
+}
+#add::after {
+    content: "lets be friends";
+    font-size: small;
+}
+#report {
+    background-repeat: no-repeat;
+    background-image: url(https://cutekawaiiresources.files.wordpress.com/2013/03/pinkcat5.gif?w=150&h=150);
+    font-size: 0px;
+    background-size: contain;
+    filter: grayscale(1);
+}
+#report::after {
+    content: "report.";
+    font-size: small;
+}
+#block {
+    background-repeat: no-repeat;
+    background-image: url(https://cutekawaiiresources.files.wordpress.com/2013/03/pinkcat2.gif?w=150&h=150);
+    font-size: 0px;
+    background-size: contain;
+    filter: grayscale(1);
+}
+#block::after {
+    content: "block";
+    font-size: small;
+}
+.player::after {
+    content: "";
+    display: block;
+    position: relative;
+    width: calc(40% -20px);
+    height: 300px;
+    max-width: 500px;
+    background-position: 0 0;
+    background-size: 90% 100%;
+    margin: 4px;
+    background-image: url(https://i.pinimg.com/564x/15/a7/b5/15a7b596f3585756ebf4a566fc2d3d6f.jpg);
+}
+audio {
+    /* border: solid 1px #fff; */
+    /* padding: 2px; */
+    margin-bottom: 0px;
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+    /* background: #fff; */
+    outline: none;
+    margin-bottom: -3px;
+    /* filter: sepia(0%) saturate(100%) grayscale(0) contrast(100%) invert(100%); */
+    margin-bottom: 2px;
+}
+table#userWall {
+    overflow-y: scroll;
+    height: 300px;
+}
+.blurbs {
+    overflow-y: scroll;
+    height: 300px;
+}
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+textarea, textarea:focus {
+    outline: none;
+    box-shadow: none !important;
+    border: 1px solid #000000;
+    background: url(https://i.pinimg.com/originals/dc/76/c9/dc76c9512eb7516d380c958fa0732a1c.gif);
+    color: #fff;
+}
+.blog {
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: lowercase;
+}
+.blogCard {
+    width: calc( 25% - 20px );
+    background-color: #000;
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px white;
+    text-align: center;
+    text-transform: lowercase;
+}
+.blogCard .avatar {
+    width: 100%;
+    margin-right: px;
+    image-orientation: from-image;
+    margin-left: -7px;
+}
+.box.fwiends {
+    text-align: center;
+}
+.url {
+    border-radius: 5px;
+    padding: 2px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    border: black;
+}
+::-webkit-scrollbar {
+    width: 13px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000;
+}
+div#gender {
+    font-size: 0px !important;
+}
+div#gender:after {
+    font-size: small;
+    content: "who am i?";
+    letter-spacing: 2px;
+}
+span#age {
+    font-size: 0px !important;
+}
+span#age:after {
+    font-size: small;
+    content: "i forgot";
+    letter-spacing: 2px;
+}
+div#country {
+    font-size: 0px !important;
+}
+div#country:after {
+    font-size: small;
+    content: "basement";
+    letter-spacing: 2px;
+}
+* {
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur834.cur), auto !important;
+}
+audio {
+    /* border: solid 1px #fff; */
+    /* padding: 2px; */
+    margin-bottom: 0px;
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+    /* background: #fff; */
+    outline: none;
+    margin-bottom: -3px;
+    filter: sepia(100%) saturate(0%) grayscale(1) contrast(100%) invert(100%);
+    margin-bottom: 2px;
+}
+.blinkGreen {
+    animation: blinkingTextGreen 0.3s infinite;
+}
+@keyframes blinkingTextGreen {
+0% { color: white; }
+49% { color: #000; }
+50% { color: #000; }
+99% { color: #000; } 
+100% { color: white; }
+}
+.blogs, .blog {
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: lowercase;
+}
+div#online {
+    filter: grayscale(1);
+}
+span#credo {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.blinkRed {
+    animation: blinkingTextRed 0.3s infinite;
+}
+@keyframes blinkingTextRed {
+0% {color: white;}
+49% {color: black;}
+50% {color: black;}
+99% {color: black;}
+100% {color: white;}
+}
+.blinkViolet {
+    animation: blinkingTextViolet 0.3s infinite;
+}
+@keyframes blinkingTextViolet {
+0% {color: #fff;}
+49% {color: #000;}
+50% {color: #000;}
+99% {color: #000;}
+100% {color: #fff;}
+}
+.blinkYellow {
+    animation: blinkingTextYellow 0.3s infinite !important;
+}
+@keyframes blinkingTextYellow {
+0% {color: white;}
+49% {color: #000;}
+50% {color: #000;}
+99% {color: #000;}
+100% {color: white;}
+}
+.logo{
+      font-size:0;
+}
+
+.logo::after{
+    content:"H3LP M3";
+    color: white;
+    line-height: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase !important;
+}
+a:hover {
+     animation: changeColor 1s linear infinite;
+}
+@keyframes changeColor{
+    0%{color:white;}
+    10%{color: #737373;}
+    20%{color: white;}
+    30%{color: #737373;}
+    40%{color: white;}
+    50%{color: #737373;}
+    60%{color: white;}
+    70%{color: #737373;}
+    80%{color: white;}
+    90%{color: #737373;}
+    100%{color: white;}
+}
+button {
+    color: white;
+    background-color: black;
+    border: 2px solid #101010;
+    text-transform: lowercase;
+}
+input[type="submit"] {
+    color: #fff;
+    background-color: black;
+    border: 2px solid #101010;
+}
+span#hUp::before {
+    content: "(New Message)";
+    font-size: small;
+    animation: blinkingTextRed 0.3s infinite; 
+}
+span#hUp:hover::before {
+    content: "please message me, its dark in here";
+}
+#hSub > a[href*="/?id"] {
+    font-size: 0px;
+}
+#hSub > a[href*="/?id"]::after {
+    font-size: 12px;
+    content: "dont go : (";
+}
+#hSub > a[href*="/all"] {
+    font-size: 0px;
+}
+#hSub > a[href*="/all"]::after {
+    font-size: 12px;
+    content: "friends.";
+}
+#hSub > a[href*="/list"] {
+    font-size: 0px;
+}
+#hSub > a[href*="/list"]::after {
+    font-size: 12px;
+    content: "whole world";
+}
+#hSub > a[href*="/random"] {
+    font-size: 0px;
+}
+#hSub > a[href*="/random"]::after {
+    font-size: 12px;
+    content: "careful";
+}
+#hSub > a[href*="/online"] {
+    font-size: 0px;
+}
+#hSub > a[href*="/online"]::after {
+    font-size: 12px;
+    content: "some nice people to present";
+}
+#hSub > a[href*="/music"] {
+    font-size: 0px;
+}
+#hSub > a[href*="/music"]::after {
+    font-size: 12px;
+    content: "music";
+}
+#hSub > a[href*="news"] {
+    font-size: 0px;
+}
+#hSub > a[href*="news"]::after {
+    font-size: 12px;
+    content: "social";
+}
+div#hSub a[href*="/blog"] {
+    font-size: 0px;
+}
+div#hSub a[href*="/blog"]::after {
+    font-size: 12px;
+    content: "diary";
+}
+#hSub > a[href*="/search"] {
+    font-size: 0px;
+}
+#hSub > a[href*="/search"]::after {
+    font-size: 12px;
+    content: "google";
+    
+    https://i.ibb.co/syKv8VC/315907637243211.webp  

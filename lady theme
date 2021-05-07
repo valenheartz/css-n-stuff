@@ -1,0 +1,550 @@
+*{  
+  font-family: "oblique",oblique ,italic;
+  color: #ffffff;
+}
+.logo b span {display: none;}
+.logo b:before {content: "i baked cookies! would you like some?"; font-family: oblique; font-size:15px; color: white;}
+
+#header {
+    font-family: oblique;
+    font-size: 15px;
+    background: !important;
+    color: #fff
+
+}
+.topLeft:after {
+    content: "";
+    white-space: pre-wrap;
+    display: block;
+    height: 500px;
+    background-image: url(lll), url(https://i.pinimg.com/originals/28/ba/4b/28ba4b7e64e54bef1ebcfd530af9c938.gif);
+    background-repeat: no-repeat, no-repeat, repeat, repeat, repeat, repeat;
+    background-size: 390px;
+
+}
+div#hSub {
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+#commentInput {
+    color: #89caf5;
+}
+.url a {
+    display: none;
+}
+.url {
+    font-size: 0px;
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3db32314-d47d-4681-8c47-c74b525313ac/de0pa0n-27a7e670-5d0e-4c8d-ada0-90f11e46769f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvM2RiMzIzMTQtZDQ3ZC00NjgxLThjNDctYzc0YjUyNTMxM2FjXC9kZTBwYTBuLTI3YTdlNjcwLTVkMGUtNGM4ZC1hZGEwLTkwZjExZTQ2NzY5Zi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.jGnDff6WmVUWMB-hFIhp6f4p36T4dyxprLo8JEEp36Y);
+    background-size: 310px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    color: transparent !important;
+    height: 256px;
+    width: 256px;
+    border: none;
+    box-shadow: none;
+    padding: 0 !important;
+    z-index: 1000;
+
+}
+div#header {
+Background-image: url(https://i.pinimg.com/originals/7f/5c/d1/7f5cd130bd1b53429a4a8fa3a8122e5f.png);
+text-align: center;}
+
+}
+#hSub a {
+	color: #d5f0d3;
+    text-shadow: 2px 2px black;
+	text-decoration: none;
+
+}
+colors
+@media only screen and (max-width: 768px)
+.topLeft, .topRight {
+    width: auto;
+    float: none;
+
+}
+@keyframes slide{
+        from {
+                margin-right: -100%;
+        }
+        to {
+                margin-right: 0%;
+        }
+ 
+}
+.topRight{
+        animation-duration: 2s;
+        
+}
+@keyframes slidein{
+    from {
+        margin-left: -100%;
+    }
+   
+    to {
+        margin-left: 0%;
+ 
+    }
+}
+.topLeft{
+        animation-duration: 2s;
+        
+}
+a {
+    color: #d5f0d3;
+}
+::-webkit-scrollbar {
+width: 13px;
+height: 13px;
+}
+
+::-webkit-scrollbar-track {
+background: #ffdeff;
+box-shadow: inset 0 0 10px #edb4ed;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+background: #fcd7fc; 
+box-shadow: inset 0 0 6px #fff; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #e092e0;
+
+}
+.player::before {
+    content: "";
+    display: block;
+    position: relative;
+    width: calc(40% -20px);
+    height: 390px;
+    max-width: 390px;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a4eeb596-b9ce-4201-a47c-74e3b000bd21/ddthurx-5426f949-58c5-4cfe-93d6-f2edc9684d1e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYTRlZWI1OTYtYjljZS00MjAxLWE0N2MtNzRlM2IwMDBiZDIxXC9kZHRodXJ4LTU0MjZmOTQ5LTU4YzUtNGNmZS05M2Q2LWYyZWRjOTY4NGQxZS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.2yYL6jlrgwHju3O_x5tBcETxUiJAssd9dubW3IgW7oI);
+}
+
+.songName span {
+    display: inline-block;
+    padding: 2%;
+}
+.songName span:hover {
+    animation-play-state: paused;
+}
+@keyframes marquee{
+0% {
+    transform: translate(0, 0);
+}
+
+100% {
+    transform: translate(-100%, 0);
+}
+}
+div.songName {
+    color: #000;
+}
+.songName img {
+    display: none;
+}
+.player a img, .player audio::-webkit-media-controls-play-button, .player audio::-webkit-media-controls-mute-button, .player audio::-webkit-media-controls-volume-slider, .player audio::-webkit-media-controls-timeline {
+    filter: invert();
+    -webkit-filter: invert();
+}
+.player audio, .player audio::-webkit-media-controls, .player audio::-webkit-media-controls-enclosure, .player audio::-webkit-media-controls-panel {
+    background: #2881ed;
+    background: var(--color--bg-box);
+    height: 36px;
+    filter: none;
+}
+
+.fwiendFace, .tableLeft {
+    transition: 0.5s;
+}
+.fwiendFace:hover, .tableLeft:hover {
+    border-radius: 5px;
+    transform: scale(1.2);
+    background: #89caf5
+url(https://i.gifer.com/Ozp.gif);
+    animation: wob .5s linear infinite;
+    box-shadow: 0 0 1rem #000000;
+    border: 1px solid #fff;
+    transition: 0.5s;
+
+}
+.songName {
+    overflow: hidden;
+    background: #ffffff;
+    border-radius: 5px;
+    margin-top: 0px;
+    font-size: 14px;
+    box-shadow: 0px 4px 6px -5px #333;
+    color: #89caf5;
+    padding: 3px;
+}
+.songName {
+    white-space: nowrap;
+}
+.songName b {
+    display: none;
+}
+.songTitle:after {
+    content: "♡";
+}
+.player {
+    background: #2881ed;
+    border: 3px double #fff;
+    padding: 0;
+
+}
+@media only screen and (max-width: 768px)
+.topLeft, .topRight {
+    width: auto;
+    float: none;
+}
+@keyframes fadein {
+0% {
+    opacity: 0;
+    color: #fff;
+}
+
+10% {
+    opacity: 0;
+    color: #fff;
+}
+100% {
+    opacity: 1;
+    color: transparent;
+ }
+}
+#container {
+    -webkit-animation: none 5s;
+}
+.logo::before {
+    margin-right: 0px;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    content: "";
+    background: url() no-repeat 0 0;
+    background-size: 24px 24px;
+}
+.logo::after {
+    margin-right: 0px;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    content: "";
+    background: url() no-repeat 0 0;
+    background-size: 24px 24px;
+
+}
+.fwiendFace, .tableLeft img {
+    transition: 0.5s;
+
+}
+.fwiendFace:hover, .tableLeft img:hover {
+    border-radius: 5px;
+    transform: scale(1.2);
+    background: #e2ceed url(https://i.gifer.com/Ozp.gif);
+    background-size: 300px;
+    animation: wob .5s linear infinite;
+    box-shadow: 0 0 1rem #fff;
+    border: 1px solid #fff;
+    transition: 0.5s;
+
+}
+div#hSub {
+   background: #89caf5;
+	color: white;
+	text-align: center;}
+
+}
+
+#header a:not(.logo) {
+    margin-left: 10px;
+    color: #fff200;
+    font-size: small;
+    text-decoration: none;
+
+}
+.avatar{
+	width:200px;
+	margin-right: 20px;
+	cursor: zoom-in;
+	image-orientation: from-image;
+    box-shadow: -1px -1px #89caf5, -2px -2px #89caf5, 1px 1px #89caf5, 2px 2px #000, -1px 0px #2881ed, 0px -1px #2881ed, 1px -1px #89caf5, -1px 1px #89caf5, -2px 1px #2881ed, 1px -2px #2881ed, 2px -2px #000, -2px 2px #000;
+
+}
+.tableRight {
+    background: transparent !important;
+
+}
+
+.blog, .url, .tableLeft, .tableRight, .boxHead, .rightHead, .short, .boxInfo, .player, .extended, .blurbs, .fwiends, #name, #form, #userWall, #footer > div > p {
+    box-shadow: -1px -1px #FFF, -2px -2px white, 1px 1px white, 2px 2px #000, -1px 0px #FFF, 0px -1px #FFF, 1px -1px white, -1px 1px white, -2px 1px white, 1px -2px white, 2px -2px #000, -2px 2px #000;
+    background-color: #d5f0d3;
+  text-align: center;
+
+}
+
+h3 {
+	display: block;
+	font-size: 2em;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+	color: white;
+}
+
+body {
+  background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/pattern-of-pastel-blue-and-white-stripes_thumb.jpg"), url("https://www.etsy.com/listing/682190740/black-cotton-blend-bengaline");
+  background-color: #2881ed;
+background-color: white;;
+background-size:;
+background-attachment:;}
+
+
+.blogs div, .blog div {
+	margin-bottom: 10px;
+	color: white;
+}
+
+.blogs div, .blog div, .url a {
+	color: white !important;
+}
+
+.blog {
+	background: url(https://i.pinimg.com/originals/a9/88/1e/a9881e358c5f060a5cdd99c07e33fbf1.jpg);
+	padding: 15px;
+}
+
+.topRight.blogPost {
+	float: center;
+	width: calc( 75% - 20px );
+	padding: 1px;
+}
+
+#top {
+   padding-left: 10px;
+   padding-right: 10px;
+   border: 3px solid;
+   background-image: url(https://i.pinimg.com/originals/a9/88/1e/a9881e358c5f060a5cdd99c07e33fbf1.jpg);
+   background-size: ;
+}
+
+fwiendCount {
+	Color: White;
+}
+.fwiendFace img {
+height: 128px;
+object-position: top;
+object-fit: cover;
+}
+
+.rightHead {
+	background: white;
+	color: white;
+	padding-left: 4px;
+}
+h4 {
+
+color: white;
+	margin-bottom: 3px;
+}
+.boxInfo {
+	border: 3px solid #000;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.boxHead {
+	background: white;
+	color: black;
+	padding: 3px;
+	padding-bottom: 4px;
+	padding-left: 6px;
+	display: none;
+}
+}
+#country{
+      position:relative;
+      visibility:hidden;
+
+}
+ #country::after{
+      content:"yandere simulator";
+      font-size:15px;
+      left:0;
+      position:absolute;
+      top:0;
+      visibility:visible;
+
+}
+#gender{
+      position:relative;
+      visibility:hidden;
+
+}
+ #gender::after{
+      content:"cooking club president";
+      font-size:15px;
+      left:0;
+      position:absolute;
+      top:0;
+      visibility:visible;
+
+}
+form {
+	margin-bottom: 20px;
+	text-align: right;
+
+}
+color: black;
+   background-color: black;
+      	border-color: black;
+      	border: 3px solid #000;
+
+}
+.tableLeft {
+	color:white
+	width: 25%;
+	padding: 10px;
+	vertical-align: top;
+	overflow: hidden;
+	background: black;}
+
+.tableRight {
+	color: white;
+	width: 75%;
+	padding: 10px;
+	vertical-align: top;
+	background-image: url(https://i.gifer.com/Ozp.gif);
+	background-size: 100% 100%;
+
+}
+.topRight > .blurbs.box > .blogs > div > b::after {
+    font-size: 15px !Important;
+    font-size: 15px !Important;
+    content: "Blogs <3";
+    animation: test 1s linear infinite;
+
+}
+.topRight > .blurbs.box > .blogs > div > b {
+    font-size: 0px !Important;
+}
+#viewFriends {
+    display: none;
+}
+.fwiendCounter>b::after {
+    content: " cooking club members!";
+    color: #7994a3;
+    font-size: 15px;
+}
+.fwiendCount {
+    font-size: 15px;
+}
+.fwiendCounter>b {
+    font-size: 0px;
+    color: #7994a3;
+}
+.fwiendCounter>b>.uName {
+    font-size: 0px;
+    color: #7994a3;
+}
+.topRight > .box:not(.blurbs) > .rightHead > b::after {
+    content: "my space♡";
+    color: #7994a3;
+    font-size: 15px;
+}
+.topRight > .box:not(.blurbs) > .rightHead > b > span.uName {
+    font-size: -9999px;
+}
+.topRight > .box:not(.blurbs) > .rightHead > b {
+    font-size: 0;
+}
+.blurbs.box > .rightHead > b > span.uName::after {
+    content: "Me♡";
+    color: #7994a3;
+    font-size: 15px;
+
+}
+.blurbs.box > .rightHead > b {
+    font-size: 0px;
+}
+.blurbs.box > .rightHead > b > span.uName {
+    font-size: 0px;
+    color: #7994a3;
+}
+#sMsg{
+      background-image:url();
+      font-size:0;
+}
+ 
+#sMsg::after{
+      content:"tell me something♡";
+      font-size:13px;
+
+}
+#sMsg{
+background-image: url(https://cutekawaiiresources.files.wordpress.com/2016/11/hello-kitty-bullet-31.gif?w=700&h=);
+color: white
+
+}
+#block{
+      background-image:url();
+font-size:0;
+}
+ 
+#block::after{
+      content:"sorry!!";
+font-size:13px;
+
+}
+#block {
+background-image: url(https://cutekawaiiresources.files.wordpress.com/2016/11/hello-kitty-bullet-151.gif?w=700&h=);
+color: white
+
+}
+#report{
+      background-image:url();
+      font-size:0;
+}
+ 
+#report::after{
+      content:"ah..";
+      font-size:13px;
+
+}
+#report {
+background-image: url(https://cutekawaiiresources.files.wordpress.com/2016/11/hello-kitty-bullet-111.gif?w=700&h=);
+color: white
+
+}
+#add{
+      background-image:url();
+      font-size:0;
+}
+ 
+#add::after{
+      content:"join the cooking club♡";
+      font-size:13px;
+
+}
+#add {
+background-image: url(https://cutekawaiiresources.files.wordpress.com/2016/11/hello-kitty-bullet-51.gif?w=700&h=);
+color: white
+
+}
+html, a {
+cursor: url(https://win98icons.alexmeub.com/icons/png/mouse-2.png), auto !important;
+
+}
+
+
+

@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://i.ibb.co/8X4dtqF/download.jpg);
+    background-image: url(https://i.ibb.co/44rgpbZ/download.jpg);
     font-family: ocr a;
     background-attachment: fixed;
 }
@@ -425,7 +425,7 @@ span#credo {
 }
 
 .logo::after{
-    content:"H3LP M3";
+    content:"welcome home";
     color: white;
     line-height: 10px;
     font-size: 15px;
@@ -465,7 +465,7 @@ span#hUp::before {
     animation: blinkingTextRed 0.3s infinite; 
 }
 span#hUp:hover::before {
-    content: "please message me, its dark in here";
+    content: "love me forever. ";
 }
 #hSub > a[href*="/?id"] {
     font-size: 0px;
@@ -479,55 +479,54 @@ span#hUp:hover::before {
 }
 #hSub > a[href*="/all"]::after {
     font-size: 12px;
-    content: "friends.";
+    content: "friends?";
 }
 #hSub > a[href*="/list"] {
     font-size: 0px;
 }
 #hSub > a[href*="/list"]::after {
     font-size: 12px;
-    content: "whole world";
+    content: "whole world?";
 }
 #hSub > a[href*="/random"] {
     font-size: 0px;
 }
 #hSub > a[href*="/random"]::after {
     font-size: 12px;
-    content: "careful";
+    content: "careful?";
 }
 #hSub > a[href*="/online"] {
     font-size: 0px;
 }
 #hSub > a[href*="/online"]::after {
     font-size: 12px;
-    content: "some nice people to present";
+    content: "out in the outside?";
 }
 #hSub > a[href*="/music"] {
     font-size: 0px;
 }
 #hSub > a[href*="/music"]::after {
     font-size: 12px;
-    content: "music";
+    content: "music?";
 }
 #hSub > a[href*="news"] {
     font-size: 0px;
 }
 #hSub > a[href*="news"]::after {
     font-size: 12px;
-    content: "social";
+    content: "social?";
 }
 div#hSub a[href*="/blog"] {
     font-size: 0px;
 }
 div#hSub a[href*="/blog"]::after {
     font-size: 12px;
-    content: "diary";
+    content: "diary?";
 }
 #hSub > a[href*="/search"] {
     font-size: 0px;
 }
 #hSub > a[href*="/search"]::after {
     font-size: 12px;
-    content: "google";
-    
-    https://i.ibb.co/syKv8VC/315907637243211.webp  
+    content: "searching for you?";
+
